@@ -1,20 +1,23 @@
 import React from 'react'
 import "../Styles/app.css"
-import { SearchOutlined , DownOutlined } from '@ant-design/icons';
+import { SearchOutlined , DownOutlined ,ShoppingCartOutlined} from '@ant-design/icons';
+import logo from '../images/logo/flipkart.png'
+import plus from '../images/logo/golden-star.png'
+
 
 export default function Navbar() {
   return (
     <>
     <header className='header'>
       <div className='container'>
-        <nav className='navmain'>
+        <nav className='subheader'>
             <div className='logo'>
-              <div>
-                <h1>MyCart</h1>
-              </div>
-              <div>
-                <span>Explore More</span>
-              </div>
+                <a href='/'>
+                  <img src={logo} className="logos" alt="/"/>
+                </a>
+                <span>Explore</span>
+                <span>Plus</span>
+                <img src={plus} className="star" alt="/"></img>
             </div>
             <div className='search'>
               <form className='form-search'>
@@ -35,11 +38,15 @@ export default function Navbar() {
               </ul>
             </div>
             <div className='cart'>
-              <button>
-                Cart
-              </button>
+              <a href="/" className='cartm'>
+              <ShoppingCartOutlined style={{ fontSize: 30, color: "white" }} />
+              <span>Cart</span>
+              </a>
             </div>
         </nav>
+        <div className='menuheader'>
+            
+        </div>
       </div>
     </header>
   </>
