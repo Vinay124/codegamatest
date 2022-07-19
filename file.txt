@@ -1,0 +1,20 @@
+Ecommerce website like Flipkart:
+https://fakestoreapi.com/
+
+Refer to the above API document and complete the below features.,
+Features:
+1. Landing Page
+2. Individual Product Page
+3. Header & Footer
+4. Redux (saga) - (if you have prior experience with redux)
+Landing Page
+➢ List all the products
+➢ have a category filter
+➢ Show result based on category if the user selects (Fashion, Home Appliances, etc..)
+➢ Clear filter option
+Individual product:
+➢ Show all the information
+NOTE:
+★ Code Quality/Standards
+★ Components must be reusable
+★ UI design responsive (Optional)
