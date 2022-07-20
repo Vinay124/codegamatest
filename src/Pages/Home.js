@@ -5,7 +5,7 @@ import Banner from '../Components/Banner'
 
 
 export default function Home() {
-
+  
   return (
     <>
     <Banner/>
@@ -70,6 +70,12 @@ export default function Home() {
             </div>
           </div>
         </div>
+      </div>
+    </section>
+
+    <section className='section-2'>
+      <div className='container'>
+
       </div>
     </section>
 
