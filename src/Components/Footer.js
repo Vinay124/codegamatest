@@ -88,8 +88,7 @@ export default function Footer() {
             <div className='x-end'>
             <div className='social-media'>
                 <ul className='flex'>
-                    <li><Link to='#'>
-                      
+                    <li><Link to='#'> 
                     Become a Seller
                     </Link></li>
                     <li><a href='https://www.instagram.com/asvishxfibernet/'>

@@ -137,10 +137,76 @@ nav {
 
 
 
+.slider-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.2rem;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+}
+
+.slider-heading h1 {
+    color: var(--black);
+    font-size: 1.2rem;
+    font-weight: 400;
+    font-family: 'Nunito',sans-serif;
+}
+
+.gift-btn {
+    padding: 10px 20px;
+    background: #2874f0;
+    color: #fff;
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 20%);
+    border: none;
+}
+
+.card-wrapper {
+    display: flex;
+    /* justify-content: center; */
+}
+
+.card-body {
+    padding: 25px 15px;
+    display: inline-block;
+    vertical-align: top;
+    width: 100%;
+    max-height: 366px;
+    text-align: center;
+}
+
+.card-body img {
+    margin: 0 15px;
+    padding: 10px 0;
+}
+
+.card-heading {
+    color: var(--black);
+}
+
+/* .card-body{
+    padding: 1rem;
+} */
+
+
+
+.card-heading p {
+    font-weight: bold;
+    font-size: 12px;
+    margin-top: 15px;
+}
 
 
 
 
+
+/* .card-heading p {
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 15px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+} */
 
 
 footer{
@@ -151,7 +217,6 @@ footer{
     padding: 45px 0px;
     display: flex;
     justify-content: space-between;
-    align-items: ;
     flex: 1;
     
 }
@@ -213,8 +278,15 @@ footer{
     text-align: center;
 }
     .social-media li {
-    font-size: 1rem;
+    font-size: 13px;
     padding: 14px;
+    color: white;
+}
+.social-media li a {
+    color: white;
+}
+.social-media li a:hover {
+    color: #dbdbdb;
 }
     .footer-end {
     max-width: 12rem;
